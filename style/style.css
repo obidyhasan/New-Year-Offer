@@ -255,3 +255,225 @@ header{
 .up-coming-text-second img{
     margin-bottom: 30px;
 }
+
+
+/* 
+------------- Holiday Section ----------------
+*/
+.holiday-section{
+    width: 1320px;
+    height: 980px;
+    margin: 100px auto;
+    background-image: url("../asset/images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.holiday-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.holiday-text p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.holiday-text h1{
+    margin: 20px;
+    color: #070211;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+}
+
+.holiday-text h1 .holiday-span{
+    color: #FF0000;
+}
+
+.holiday-text .holiday-desc{
+    text-align: center;
+    color: #070211aa;
+    font-weight: 500;
+    line-height: 1.7;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.holiday-container{
+    position: relative;
+}
+
+.holiday-container .box-img{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}   
+
+.holiday-container .offer-img{
+    position: absolute;
+    right: 40px;
+    top: 180px;
+}
+
+
+/* 
+------------- Portfolio Section ------------
+*/
+.portfolio-section{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.portfolio-text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+}
+
+.portfolio-text h1{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    margin: 20px 0;
+}
+
+
+.portfolio-text span{
+    color: #070211aa;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+}
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 30px 0;
+}
+
+
+/* 
+-------------- Newsletter Section ---------------
+*/
+.newsletter-section{
+    width: 1320px;
+    height: 500px;
+    background-color: rgba(255, 0, 0, 5%);
+    border-radius: 16px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+}
+
+.newsletter-section img{
+    width: 120px;
+}
+
+.newsletter-section h1{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    margin: 20px 0;
+}
+
+.newsletter-section p{
+    color: #070211aa;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+input[type="email"]{
+    border: none;
+    padding: 20px;
+    border-radius: 50px 0 0 50px;
+    width: 400px;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: #FF0000;
+    padding: 20px 40px;
+    font-weight: 500;
+    color: white;
+    margin-left: -15px;
+    border-radius: 0 50px 50px 0;
+}
+
+
+/* 
+--------------- Footer Section --------------
+*/
+footer{
+    background-color: #070211;
+}
+
+.footer-section{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.address-div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.address-div .address p{
+    line-height: 1.7;
+    font-family: "Inter", sans-serif;
+}
+
+.contact div{
+    display: flex;
+    align-content: center;
+    margin-bottom: 8px;
+    margin-right: 100px;
+}
+
+.contact div img{
+    width: 20px;
+}
+
+.contact div span{
+    margin-left: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.social{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social img{
+    width: 50px;
+    margin: 10px;
+}
+
+.copy-right{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy-right p{
+    font-family: "Inter", sans-serif;
+}
